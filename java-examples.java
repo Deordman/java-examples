@@ -1,22 +1,3 @@
-// 1'den 10'a Kadar Rastgele 3 Sayı Üretip Bu Sayılardan En Büyüğünü Ekrana Yazdıran Kod
-	
-public static void main(String[] args)
-{
-	Random rng = new Random();
-		
-	int sayi1 = rng.nextInt(10) + 1;
-		
-	int sayi2 = rng.nextInt(10) + 1;
-		
-	int sayi3 = rng.nextInt(10) + 1;
-		
-	int enBuyuk = Math.max(sayi1, Math.max(sayi2, sayi3));
-		
-	System.out.println("Üretilen Sayılar : " + sayi1 + " " + sayi2 + " " + sayi3);
-		
-	System.out.println("En Büyük Sayı : " + enBuyuk);
-}
-
 // Klavyeden Girilen Sayının Tam Bölenlerini Bulan ve Ekranda Listeleyen, Aynı Zamanda Tam Bölenlerin Sayısını da Ekrana Yazdıran Kod
 	
 public static void main(String[] args)
